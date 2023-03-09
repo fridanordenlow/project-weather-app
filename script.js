@@ -50,31 +50,31 @@ fetch(urlWeather)
       textForecast.innerHTML = `
       <img class="icon" src="icons-graficon/drizzle.png">
       <p class="prompt">There is light rain in ${wData.name} today. Maybe bring your umbrella?</p>`;
-      document.body.style.backgroundColor = "#B4CDE6";
+      document.body.style.backgroundColor = "#BAD1C2";
     } else if (todaysWeatherMain === "Rain") {
       textForecast.innerHTML = `
       <img class="icon" src="icons-graficon/rain.png">
       <p class="prompt">It's raining in ${wData.name} today! Better bring your umbrella!</p>`;
-      document.body.style.backgroundColor = "#B4CDE6";
+      document.body.style.backgroundColor = "#CDD1CD";
     } else if (todaysWeatherMain === "Mist") {
       textForecast.innerHTML = `
       <img class="icon" src="icons-graficon/foggy.png">
       <p class="prompt">Oh, it's misty in ${wData.name} today. Better watch where you are going!</p>`;
-      document.body.style.backgroundColor = "#B5D5C5";
+      document.body.style.backgroundColor = "#FOEBE3";
     } else if (todaysWeatherMain === "Snow") {
       textForecast.innerHTML = `
       <img class="icon" src="icons-graficon/snow.png">
-      <p class="prompt"><It's snowing in ${wData.name} today! Put on warm clothes and go for a nice walk.</p>`;
+      <p class="prompt">It's snowing in ${wData.name} today! Put on warm clothes and go for a nice walk.</p>`;
       document.body.style.backgroundColor = "#D3CEDF";
     } else if (todaysWeatherMain === "Thunderstorm") {
       textForecast.innerHTML = `
       <img class="icon" src="icons-graficon/thunderstorm.png">
       <p class="prompt">Be careful! There is a thunderstorm in ${wData.name} today.</p>`;
-      document.body.style.backgroundColor = "#9CB4CC";
+      document.body.style.backgroundColor = "#A8b5BF";
     } else {
       textForecast.innerHTML = `
       <img class="icon" src="icons-graficon/weather.png">
-      <p class="prompt">Unsure how to describe the weather in ${wData.name} today. What would you say?</p>`;
+      <p class="prompt">Don't know how to describe the weather in ${wData.name} today. What would you say?</p>`;
       document.body.style.backgroundColor = "#F2D7D9";
     }
 
