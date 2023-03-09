@@ -11,4 +11,4 @@ If we had more time we would add a search bar for different cities, I think we w
 
 ## View it live
 
-
+https://weather-app-by-frida-and-annika.netlify.app/
